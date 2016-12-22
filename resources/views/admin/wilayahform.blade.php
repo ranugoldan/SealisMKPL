@@ -33,6 +33,7 @@ padding:5px; border:1px dashed #C2DAE7;}
 
 	</div>
 
+	<!-- Map section -->
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script>
 
