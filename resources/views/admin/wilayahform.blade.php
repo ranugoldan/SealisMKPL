@@ -33,10 +33,26 @@ padding:5px; border:1px dashed #C2DAE7;}
 
 	</div>
 
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
 
+	var map;
+	function maps() {
+		var opts = {'center': new google.maps.LatLng(-5.878332, 115.290527), 'zoom':5, 'mapTypeId': google.maps.MapTypeId.ROADMAP }
+		map = new google.maps.Map(document.getElementById('map-canvas'),opts);
 
+		google.maps.event.addListener(map,'click',function(event) {
+			document.getElementById('lat').value = event.latLng.lat()
+			document.getElementById('lon').value = event.latLng.lng()
+		})
 
+		google.maps.event.addListener(map,'mousemove',function(event) {
+		});
+	}
 
+	window.onload = maps
+
+	</script>
 
 	<div class="form-group">
 	{!! Form::submit('Submit', ['class' => 'btn btn-primary']) !!}
