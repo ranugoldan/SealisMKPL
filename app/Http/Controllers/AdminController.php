@@ -19,6 +19,8 @@ use Mapper;
 
 class AdminController extends Controller
 {
+
+	//Deklarasi variabel setiap objek
 	private $stasiun;
 	private $wilayah;
 	private $stasiuns;
