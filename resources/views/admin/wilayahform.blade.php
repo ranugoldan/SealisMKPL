@@ -50,7 +50,8 @@ padding:5px; border:1px dashed #C2DAE7;}
 		google.maps.event.addListener(map,'mousemove',function(event) {
 		});
 	}
-
+	<!-- End Map section -->
+	
 	window.onload = maps
 
 	</script>
