@@ -8,6 +8,8 @@
 git clone https://github.com/renopp/SealisMKPL.git
 cd SealisMKPL
 composer install
+cp .env.example .env
+php artisan key:generate
 ```
 
 ## Official Documentation
