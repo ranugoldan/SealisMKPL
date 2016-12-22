@@ -30,6 +30,8 @@ Route::controllers([
 |
 */
 
+//Route untuk sealis admin
+
 get('/', ['as'=> 'admin', 'uses'=> 'AdminController@index']);
 get('/admin', ['as'=> 'admin', 'uses'=> 'AdminController@index']);
 get('/admin/login', ['as'=> 'admin_login', 'uses'=> 'AdminController@login']);
