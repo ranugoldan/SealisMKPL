@@ -47,6 +47,14 @@ img {
     color: #34495e !important;
     border-radius: 0px;
 }
+
+@media (max-width: 767px) {
+    #dropdownmenu li a {
+        color: #FFFFFF !important;
+        border-radius: 0px;
+    }
+}
+
 #dropdownmenu li a:hover{
     color: #ecf0f1 !important;
     border-radius: 0px;
