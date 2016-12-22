@@ -33,7 +33,6 @@ padding:5px; border:1px dashed #C2DAE7;}
 
 	</div>
 
-	<!-- Map section -->
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script>
 
@@ -50,7 +49,6 @@ padding:5px; border:1px dashed #C2DAE7;}
 		google.maps.event.addListener(map,'mousemove',function(event) {
 		});
 	}
-	<!-- End Map section -->
 	
 	window.onload = maps
 
